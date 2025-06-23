@@ -50,44 +50,29 @@ header *{
 
 .entete{
     width: 100%;
+    margin: auto;
+}
+
+.info{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     flex-wrap: wrap;
-}
-
-.info-contact{
-    display: flex;
     align-items: center;
-    gap: 8px;
-    font-style: normal;
+    gap: 10px;
+    padding: 10px;
 }
 
-.colonne-gauche{
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    padding: 20px;
-}
-
-.colonne-droite{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    padding: 20px;
-}
 
 h1{
     font-family: 'Lato', sans-serif;
     font-size: 3rem;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 h2{
     color: #17abb3;
     padding-bottom: 20px;
-    padding-top: 20px;
     font-size: 1.2rem;
 }
 
