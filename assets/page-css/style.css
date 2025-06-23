@@ -1,0 +1,213 @@
+@font-face{
+    font-family: 'Raleway' ;
+    src: url(./fonts/Raleway-Italic-VariableFont_wght.ttf);
+    src: url(./fonts/Raleway-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    font-family: 'Raleway' , sans-serif;
+    font-size: 0.9rem;
+    color: #333333;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1160px;
+    background-color: #FFFFFF;
+    border-left: 50px solid #f5f5f5;
+    border-right: 50px solid #f5f5f5;
+}
+
+#photo-de-profil{
+  margin: auto;
+    margin-left: 50px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 75px;
+    cursor: zoom-in;
+}
+
+.icone{
+    width: 20px;
+    height: 20px;
+    fill: #ffffff;
+}
+
+header{
+    color: #ffffff;
+    background-color: #17abb3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header *{
+    color: #ffffff;
+}
+
+.entete{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2{
+    color: #17abb3;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+header h2{
+    color: #ffffff;
+}
+
+h3{
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.info-contact{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-style: normal;
+}
+
+.info-contact div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 20px;
+}
+
+.info{
+    flex: 1;
+    padding-left: 20px;
+}
+
+#page{
+        display: flex;
+}
+
+section {
+    margin-bottom: 0;
+}
+
+#left-column {
+    width: 30%;
+    background-color: #e3e3e3;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+table{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.language{
+    padding: 10px;
+}
+
+.niveau{
+    text-align: right;
+}
+
+.liste-gauche li{
+   list-style-type: square;
+}
+
+.liste-gauche li::marker{
+   color: #17abb3;
+}
+
+.etoile{
+    text-align: right;
+    color: #17abb3;
+}
+
+ul {
+    list-style: none;
+    padding: 5px;
+}
+
+.gras{
+    font-weight: bold;
+}
+
+#right-column {
+    width: 70%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.parcours{
+    text-indent: 20px;
+    text-align: justify;
+    padding: 20px;
+}
+
+span{
+   display: inline-block;
+   text-indent: 20px;
+}
+
+.date{
+    width: 40%;
+    text-align: right;
+    color: #17abb3;
+}
+
+.survol:hover{
+   background-color: #e3e3e3;
+   border-left:10px solid #17abb3;
+}
+
+footer{
+    background-color: #17abb3;
+    padding: 20px;
+    text-align: center;
+}
+
+.icone-reseau{
+    width: 20px;
+    height: 20px;
+    fill: #ffffff;
+}
+
+.icone-reseau:hover{
+opacity: 0.5;
+}
+
+small{
+    color: #ffffff;
+     font-style: italic;
+}
+
+time{
+     color: #ffffff;
+     font-style: italic;
+}
