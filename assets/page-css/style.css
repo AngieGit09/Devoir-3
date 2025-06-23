@@ -1,12 +1,11 @@
 @font-face{
-    font-family: 'Raleway' ;
-    src: url(./fonts/Raleway-Italic-VariableFont_wght.ttf);
-    src: url(./fonts/Raleway-VariableFont_wght.ttf);
+    font-family: 'Raleway';
+    src: url(../fonts/Raleway-VariableFont_wght.ttf);
 }
 
 *{
     margin: 0;
-    font-family: 'Raleway' , sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 0.9rem;
     color: #333333;
     box-sizing: border-box;
@@ -20,7 +19,7 @@ body{
 }
 
 #photo-de-profil{
-  margin: auto;
+    margin: auto;
     margin-left: 50px;
     width: 150px;
     height: 150px;
@@ -31,8 +30,8 @@ body{
 }
 
 .icone{
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     fill: #ffffff;
 }
 
@@ -53,8 +52,30 @@ header *{
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
-  
+}
+
+.info-contact{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-style: normal;
+}
+
+.colonne-gauche{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px;
+}
+
+.colonne-droite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 20px;
 }
 
 h1{
@@ -67,10 +88,12 @@ h2{
     color: #17abb3;
     padding-bottom: 20px;
     padding-top: 20px;
+    font-size: 1.2rem;
 }
 
 header h2{
     color: #ffffff;
+    text-align: center;
 }
 
 h3{
@@ -78,29 +101,9 @@ h3{
     padding-top: 20px;
 }
 
-
 a{
     text-decoration: none;
     color: #ffffff;
-}
-
-.info-contact{
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-style: normal;
-}
-
-.info-contact div{
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 20px;
-}
-
-.info{
-    flex: 1;
-    padding-left: 20px;
 }
 
 #page{
@@ -161,7 +164,8 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    text-align: center;
+    padding: 30px;
+    padding-left: 40px;
 }
 
 .parcours{
